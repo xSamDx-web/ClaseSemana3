@@ -7,4 +7,19 @@ def sumatoria(n):
         suma += i
         l.append(suma)
     return l
+
+
+#s Serie fibonacci 
+def fibonacci(n):
+    a = 1
+    b = 1
+    l=[]
+    if(n==1):
+        l.append(a)
+    elif(n==2):
+        l.append(b)
+    else:
+        a,b=b,a+b
+        l.append(b)
+    return l
     

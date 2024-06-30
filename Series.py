@@ -23,3 +23,13 @@ def fibonacci(n):
         l.append(b)
     return l
     
+    
+    #Serie multiplicacion
+def multiplicar(a, b):
+    resultado = a * b
+    return resultado
+x = 5
+y = 3
+resultado_multiplicacion = multiplicar(x, y)
+print(f"El resultado de {x} * {y} es: {resultado_multiplicacion}")
+

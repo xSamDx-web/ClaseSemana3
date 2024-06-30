@@ -24,6 +24,7 @@ def fibonacci(n):
     return l
     
     
+
     #Serie multiplicacion
 def multiplicar(a, b):
     resultado = a * b
